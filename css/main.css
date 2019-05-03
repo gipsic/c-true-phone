@@ -513,7 +513,7 @@ button:focus {
    Navbar Style
    ========================================================================== */
 .bg-inverse {
-    background: #930049;
+    background: #930049 !important;
 }
    .logo-menu a {
   font-size: 20px;
