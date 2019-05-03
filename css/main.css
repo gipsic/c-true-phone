@@ -512,7 +512,10 @@ button:focus {
 /* ==========================================================================
    Navbar Style
    ========================================================================== */
-.logo-menu a {
+.bg-inverse {
+    background: #930049;
+}
+   .logo-menu a {
   font-size: 20px;
   color: #fff;
 }
@@ -579,6 +582,7 @@ button:focus {
 
 .navbar-brand {
   color: #fff;
+  max-width:calc( 100% - 110px );
 }
 
 .navbar-expand-md .navbar-nav .nav-link:focus,
